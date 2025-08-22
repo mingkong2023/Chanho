@@ -1,11 +1,11 @@
 
-# Honox
+# Chanho
 
-Honox 是一个基于 Hono+Knex+MySQL+Zod+Vue3 构建的轻量级 MVC 框架，完全使用 JavaScript 开发。它体现了函数式编程的概念，提供了卓越的性能、清晰的代码和易于遵循的过程，确保了高可维护性。
+Chanho(禅火：以禅心驭火焰) 是一个基于 Hono+Knex+MySQL+Zod+Vue3 构建的轻量级 MVC 框架，完全使用 JavaScript 开发。它体现了函数式编程的概念，提供了卓越的性能、清晰的代码和易于遵循的过程，确保了高可维护性。
 
 ## 特点
 
-- 基于 Express 构建
+- 基于 Hono 构建
 - 基于 EMSA 语法
 - 模块化设计
   - 多模块化路由
@@ -90,10 +90,10 @@ pm2 v6.0.8
 ### 运行
 
 ```javascript
-import Honox from "honox";
-const honox = new Honox()
-await honox.init()
-honox.start()
+import Chanho from "chanho";
+const app = new Chanho()
+await app.init()
+app.start()
 
 ```
 
