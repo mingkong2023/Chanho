@@ -1,7 +1,9 @@
 
 # Chanho
 
-Chanho(禅火：以禅心驭火焰) 是一个基于 Hono+Knex+MySQL+Zod+Vue3 构建的轻量级 MVC 框架，完全使用 JavaScript 开发。它体现了函数式编程的概念，提供了卓越的性能、清晰的代码和易于遵循的过程，确保了高可维护性。
+Chanho(禅火：以禅心驭火焰) 是一个基于 Hono+Knex+MySQL+Zod+Vue3 构建的轻量级 MVC 框架，遵循 JavaScript 优先原则。它体现了函数式编程的概念，提供了卓越的性能、清晰的代码和易于遵循的过程，确保了高可维护性。
+
+> 🌟 开发友好，推崇JS优先。适合全栈开发者，独立而高效、优雅的代码、极致的性能、稳定的生产实践，灵活强大。
 
 ## 特点
 
@@ -13,7 +15,7 @@ Chanho(禅火：以禅心驭火焰) 是一个基于 Hono+Knex+MySQL+Zod+Vue3 构
   - 模块化 controllers
   - 模块化 services
 - 插件式架构
-- 轻量级（核心代码在300行以内）
+- 灵活强大
 - 缓存支持
   
 ## 依赖环境
@@ -143,4 +145,3 @@ npm run seed
 ```bash
 npm run dev
 ```
-
