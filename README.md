@@ -97,4 +97,50 @@ app.start()
 
 ```
 
-该框架专为寻求简单与功能之间平衡的开发者设计，为构建 Web 应用程序提供了一个强大的基础。
+### 开发模板 （推荐）
+
+- 1. 克隆项目
+
+```bash
+git clone https://github.com/mingkong2023/chanhox.git
+cd chanhox
+```
+
+- 2. 安装依赖
+
+```bash
+npm install
+```
+
+- 3. 配置数据库
+
+在 `.env` 文件中配置 MySQL 数据库连接信息。
+
+```bash
+# .env
+NODE_ENV=development
+PORT=3000
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=chanho_db
+
+# JWT Secret (可选)
+JWT_SECRET=your_jwt_secret_key
+```
+
+- 4. 初始化数据库
+
+```bash
+npm run migrate
+npm run seed
+```
+
+- 5. 运行项目
+
+```bash
+npm run dev
+```
+
