@@ -1,7 +1,7 @@
 {
   "name": "chanho",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Hono + MySQL + Knex + Zod + javascript 多模块mvc框架",
   "main": "packages/index.js",
   "module": "packages/index.js",
